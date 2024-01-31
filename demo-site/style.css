@@ -1,0 +1,29 @@
+
+header{
+    background-color: #0040ff2e;
+    width: 100%;
+   text-align: center;
+   padding: 30px;
+}
+
+.main-content p{
+    text-align: center;
+    padding: 30px;
+}
+
+.main-column{
+    background-color: aquamarine;
+    color: red;
+    height: auto;
+    padding: 77px 0px;
+    text-align: center;
+}
+
+.columns{
+    display: flex;
+}
+
+.column{
+    margin: 0 10px;
+
+}
