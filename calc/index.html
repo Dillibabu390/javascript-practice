@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>calc</title>
+</head>
+
+
+<body>
+<input id="valueone">
+<input id="valuetwo">
+<button onclick="add()">add</button>
+<p id="ris">Result:</p>
+
+<script>
+   
+    function add(){ 
+    var one = document.getElementById("valueone")
+    var two = document.getElementById("valuetwo")
+
+    var total = Number(one.value) +Number(two.value);
+    
+    var res = document.getElementById("ris")
+    res.textContent = total
+
+    }
+
+ </script>
+</body>
+
+</html>
