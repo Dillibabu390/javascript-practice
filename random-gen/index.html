@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number gen</title>
+</head>
+<body>
+    <input id="val">
+    <button onclick="check()"> check </button>
+    <p id="outpt">result</p><h1 id="res">10</h1>
+
+ <script>
+ var valuein = document.getElementById("val")
+ var res = document.getElementById("res")
+ var outpt = document.getElementById("outpt")
+ var score = Number(res.textContent)
+ var randomval = Math.floor(Math.random()*10)+1
+ function check(){
+ if(randomval == valuein.value){
+  score =score +1
+  outpt.textContent = "Right"    
+  }
+  else{
+    score = score -1
+    outpt.textContent = "wrong"
+  }
+
+
+ }
+
+ </script>
+    
+</body>
+</html>
